@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  border-left: 5px solid rgb(1, 1, 114);
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.btn-custom {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(1, 1, 114);
+  --bs-btn-border-color: rgb(1, 1, 114);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0d6efd;
+  --bs-btn-hover-border-color: #0d6efd;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0d6efd;
+  --bs-btn-active-border-color: #0d6efd;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(1, 1, 114);
+  --bs-btn-disabled-border-color: rgb(1, 1, 114);
+}
+
+.bg-blue {
+  background-color: rgb(1, 1, 114);
+}
+
+.btn-Kembali {
+  margin-left: 50px;
+  margin-top: -20px;
+}

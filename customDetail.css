@@ -1,0 +1,23 @@
+.judul {
+  padding-top: 50px;
+}
+
+.waktu {
+  padding-left: 25px;
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.Detail-Blog1 {
+  
+}
+
+.hr-tebal {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.IsiBlog {
+  font-size: 20px;
+}

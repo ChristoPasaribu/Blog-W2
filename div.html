@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeri Flexbox</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap; /* Supaya kalau penuh, otomatis turun ke baris berikut */
+      gap: 10px; /* Jarak antar gambar */
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover; /* Supaya gambar tidak gepeng */
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Galeri Flexbox</h2>
+  <div class="gallery">
+    <img src="https://picsum.photos/300/200?random=1" alt="Gambar 1">
+    <img src="https://picsum.photos/300/200?random=2" alt="Gambar 2">
+    <img src="https://picsum.photos/300/200?random=3" alt="Gambar 3">
+    <img src="https://picsum.photos/300/200?random=4" alt="Gambar 4">
+    <img src="https://picsum.photos/300/200?random=5" alt="Gambar 5">
+  </div>
+</body>
+</html>
